@@ -16,6 +16,7 @@ get '/monster' do
    "¯¯̿̿¯̿̿'̿̿̿̿̿̿̿'̿̿'̿̿̿̿̿'̿̿̿)͇̿̿)̿̿̿̿ '̿̿̿̿̿̿\̵͇̿̿\=(•̪̀●́)=o/̵͇̿̿/'̿̿ ̿ ̿̿"
 end
 get '/cat' do
+  @name = ["Amigo", "Oscar", "Viking"].sample
   erb(:index)
 end
 get '/leopard' do
